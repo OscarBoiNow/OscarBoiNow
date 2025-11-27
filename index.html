@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 CAM Stream</title>
+  <style>
+    body { 
+      background: #000;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    #stream {
+      width: 100%;
+      max-width: 500px;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+
+<!-- IMPORTANT: Use <img> so stream autoplays -->
+<img id="stream" src="http://192.168.4.1:81/stream">
+
+</body>
+</html>
